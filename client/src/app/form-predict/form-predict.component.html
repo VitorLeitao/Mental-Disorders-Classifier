@@ -1,0 +1,243 @@
+<div class="container">
+  <h1 class="title">Fill the form</h1>
+  <div class="card">
+    <!--COLUNA 1 -->
+    <div class="coluna">
+      <div class="container-select">
+        <select
+          class="input-select"
+          [class.selected]="registro.Sadness"
+          (change)="setSelectedOption($event, 'Sadness')"
+        >
+          <option value="" disabled selected hidden>Sadness</option>
+          <option value="Usually">Usually</option>
+          <option value="Sometimes">Sometimes</option>
+          <option value="Most-Often">Most-Often</option>
+          <option value="Seldon">Seldon</option>
+        </select>
+      </div>
+      <div class="container-select">
+        <select
+          class="input-select"
+          [class.selected]="registro.Euphoric"
+          (change)="setSelectedOption($event, 'Euphoric')"
+        >
+          <option value="" disabled selected hidden>Euphoric</option>
+          <option value="Usually">Usually</option>
+          <option value="Sometimes">Sometimes</option>
+          <option value="Most-Often">Most-Often</option>
+          <option value="Seldon">Seldon</option>
+        </select>
+      </div>
+      <div class="container-select">
+        <select
+          class="input-select"
+          [class.selected]="registro.Exhausted"
+          (change)="setSelectedOption($event, 'Exhausted')"
+        >
+          <option value="" disabled selected hidden>Exhausted</option>
+          <option value="Usually">Usually</option>
+          <option value="Sometimes">Sometimes</option>
+          <option value="Most-Often">Most-Often</option>
+          <option value="Seldon">Seldon</option>
+        </select>
+      </div>
+      <div class="container-select">
+        <select
+          class="input-select"
+          [class.selected]="registro.Sleep_dissorder"
+          (change)="setSelectedOption($event, 'Sleep_dissorder')"
+        >
+          <option value="" disabled selected hidden>Sleep dissorder</option>
+          <option value="Usually">Usually</option>
+          <option value="Sometimes">Sometimes</option>
+          <option value="Most-Often">Most-Often</option>
+          <option value="Seldon">Seldon</option>
+        </select>
+      </div>
+    </div>
+    <!--COLUNA 2 -->
+    <div class="coluna">
+      <div class="container-select">
+        <select
+          class="input-select"
+          [class.selected]="registro.Mood_Swing"
+          (change)="setSelectedOption($event, 'Mood_Swing')"
+        >
+          <option value="" disabled selected hidden>Mood Swing</option>
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+      <div class="container-select">
+        <select
+          class="input-select"
+          [class.selected]="registro.Suicidal_thoughts"
+          (change)="setSelectedOption($event, 'Suicidal_thoughts')"
+        >
+          <option value="" disabled selected hidden>Suicidal thoughts</option>
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+      <div class="container-select">
+        <select
+          class="input-select"
+          [class.selected]="registro.Anorxia"
+          (change)="setSelectedOption($event, 'Anorxia')"
+        >
+          <option value="" disabled selected hidden>Anorxia</option>
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+      <div class="container-select">
+        <select
+          class="input-select"
+          [class.selected]="registro.Authority_Respect"
+          (change)="setSelectedOption($event, 'Authority_Respect')"
+        >
+          <option value="" disabled selected hidden>Authority Respect</option>
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+    </div>
+    <!--COLUNA 3 -->
+    <div class="coluna">
+      <div class="container-select">
+        <select
+          class="input-select"
+          [class.selected]="registro.Try_Explanation"
+          (change)="setSelectedOption($event, 'Try_Explanation')"
+        >
+          <option value="" disabled selected hidden>Try Explanation</option>
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+      <div class="container-select">
+        <select
+          class="input-select"
+          [class.selected]="registro.Aggressive_Response"
+          (change)="setSelectedOption($event, 'Aggressive_Response')"
+        >
+          <option value="" disabled selected hidden>Aggressive Response</option>
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+      <div class="container-select">
+        <select
+          class="input-select"
+          [class.selected]="registro.Ignore_Move_On"
+          (change)="setSelectedOption($event, 'Ignore_Move_On')"
+        >
+          <option value="" disabled selected hidden>Ignore And MoveOn</option>
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+      <div class="container-select">
+        <select
+          class="input-select"
+          [class.selected]="registro.Nervous_Break_down"
+          (change)="setSelectedOption($event, 'Nervous_Break_down')"
+        >
+          <option value="" disabled selected hidden>Nervous Break down</option>
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+    </div>
+    <!--COLUNA 4 -->
+    <div class="coluna">
+      <div class="container-select">
+        <select
+          class="input-select"
+          [class.selected]="registro.Admit_Mistakes"
+          (change)="setSelectedOption($event, 'Admit_Mistakes')"
+        >
+          <option value="" disabled selected hidden>Admit Mistakes</option>
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+      <div class="container-select">
+        <select
+          class="input-select"
+          [class.selected]="registro.Overthinking"
+          (change)="setSelectedOption($event, 'Overthinking')"
+        >
+          <option value="" disabled selected hidden>Overthinking</option>
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+      <div class="container-select">
+        <select
+          class="input-select"
+          [class.selected]="registro.Sexual_Activity"
+          (change)="setSelectedOption($event, 'Sexual_Activity')"
+        >
+          <option value="" disabled selected hidden>Sexual Activity</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+      <div class="container-select">
+        <select
+          class="input-select"
+          [class.selected]="registro.Concentration"
+          (change)="setSelectedOption($event, 'Concentration')"
+        >
+          <option value="" disabled selected hidden>Concentration</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+      <div class="container-select">
+        <select
+          class="input-select"
+          [class.selected]="registro.OptimiYes"
+          (change)="setSelectedOption($event, 'OptimiYes')"
+        >
+          <option value="" disabled selected hidden>OptimiYes</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="div-button">
+    <button class="button" (click)="handleSubmit()">Submit</button>
+  </div>
+
+  <div class="container-resposta"> 
+    <p>{{ respostaDaAPI }}</p>
+  </div>
+</div>

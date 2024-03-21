@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar {
+    background-color: rgb(59, 138, 228); 
+    color: #fff; 
+    padding: 10px;
+  }
+  
+  .content {
+    flex-grow: 1; 
+  }
+
+  .text{
+    font-size: large;
+  }
+  
